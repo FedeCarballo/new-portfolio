@@ -310,4 +310,111 @@ section {
 .main-title h2 span {
   color: var(--color-secondary);
 }
+
+.left-about {
+  padding-right: 5rem;
+  width: 70%;
+  margin: 5rem auto;
+}
+
+.left-about p {
+  line-height: 2rem;
+  padding: 1rem;
+  color: var(--color-grey1);
+}
+
+.left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.about-stats {
+  width: 100%;
+  color: var(--color-secondary);
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.about-stats .progress-bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-stats .progress-bar {
+  margin-top: 15px;
+  width: 16%;
+  font-size: 1rem;
+  color: var(--color-white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-transition: all 700ms ease-in-out;
+  transition: all 700ms ease-in-out;
+  border-radius: 15px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.about-stats .progress-bar img {
+  padding: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: auto;
+  width: 100px;
+}
+
+.about-stats .progress-bar:hover {
+  -webkit-filter: none;
+          filter: none;
+  color: #2a999d;
+  filter: none;
+  -webkit-transform: scaleX(1.1) scaleY(1.1);
+          transform: scaleX(1.1) scaleY(1.1);
+  -webkit-box-shadow: var(--color-secondary) 4px 5px 15px;
+          box-shadow: var(--color-secondary) 4px 5px 15px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-title h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.main-title h2 span {
+  color: var(--color-secondary);
+}
+
+.main-title h2 .bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--color-grey5);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  z-index: -1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 6.3rem;
+}
 /*# sourceMappingURL=styles.css.map */
