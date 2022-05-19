@@ -754,6 +754,44 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+  header .right-header {
+    padding: 0 !important;
+  }
+  .right-header {
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+  }
+  .header-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .controlls {
+    top: auto;
+    bottom: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    width: 100%;
+    background-color: var(--color-grey5);
+  }
+  .controlls .controll {
+    margin: 1rem .5rem;
+  }
   .about-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -764,6 +802,7 @@ section {
     padding-top: 2.5rem;
   }
   .about-container .left-about {
+    width: 100%;
     padding-right: 0;
   }
   .about-container .left-about p {
@@ -801,6 +840,7 @@ section {
     padding-bottom: 6rem;
   }
   .contact-content-con {
+    padding-bottom: 6rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -815,6 +855,22 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .contact-info .contact-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin: 2rem 0;
   }
   .contact-content-con .right-contact .i-c-2 :last-child {
     margin-left: 0 !important;
