@@ -1,0 +1,193 @@
+@media screen and (max-width:600px){
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+    .about-stats{
+        font-size: 2.5rem !important;
+        .progress-bars{
+            display: flex;
+            flex-direction: row;
+            .progress-bar{
+                width: 40%;
+                filter: none;
+                &:hover{
+                    box-shadow: none;
+                    transform: none;
+                }
+            }
+        }
+    }
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
+
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .contact-content-con{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction:column;
+    }
+
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0 !important;
+        margin-top: 1.5rem;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem !important;
+            }
+            .bg-text{
+                font-size: 2rem !important;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width:601px) and  (max-width: 970px) {
+    header{
+        padding: 0;
+    }
+    header .right-header{
+        padding: 0 !important;
+    }
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .controlls{
+        top:auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+        .controll{
+            margin: 1rem .5rem;
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        margin: 0 auto;
+        width: 90%;
+        .name{
+            font-size: 2.5rem !important;
+        }
+    }
+    .section{
+        padding: 7rem 2rem;
+    }
+    .about-stats{
+        font-size: 2.5rem !important;
+        .progress-bars{
+            display: flex;
+            flex-direction: row;
+            .progress-bar{
+                width: 30%;
+                margin-top: 2rem;
+                filter: none;
+                &:hover{
+                    box-shadow: none;
+                    transform: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 971px) and (max-width: 1070px) {
+    .controlls{
+        top:auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+        .controll{
+            margin: 1rem .5rem;
+        }
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            padding-top: 2.5rem;
+        }
+    }
+
+    .main-title{
+        h2{
+            font-size: 4rem;
+            span{
+                font-size: 4.5rem;
+            }
+        }
+    }
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .contact-content-con{
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+    .sec2, .sec3, .sec4{
+        padding: 3rem 6rem;
+    }
+}
+
+@media screen and (min-width: 1071px) and (max-width: 1432px) {
+    header {
+        padding: 0 !important;
+    }
+    .section{
+        padding: 7rem 11rem;
+    }
+    .contact-content-con{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction:column;
+    }
+
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0 !important;
+        margin-top: 1.5rem;
+    }
+
+}

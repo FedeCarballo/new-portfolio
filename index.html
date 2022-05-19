@@ -26,7 +26,7 @@
                     Inserte aqui texto motivador que aun no se me ocurrió
                 </p>
                 <div class="btn-con">
-                    <a href="" class="main-btn">
+                    <a href="" class="main-btn" download="CV/Currriculum Federico Carballo Dev Front-End.pdf">
                         <span class="btn-text">Descarga mi CV</span>
                         <span class="btn-icon"><i class="fas fa-download"></i></span>
                     </a>
@@ -51,7 +51,7 @@
                         
                     </p>
                     <div class="btn-con">
-                        <a href="" class="main-btn">
+                        <a href="" class="main-btn" download="CV/Currriculum Federico Carballo Dev Front-End.pdf">
                             <span class="btn-text">Descarga mi CV</span>
                             <span class="btn-icon"><i class="fas fa-download"></i></span>
                         </a>
@@ -106,10 +106,10 @@
                     <div class="hover-items">
                         <h3>Weather app</h3>
                         <div class="icons">
-                            <a href="www.google.com" target="_blank" class="icon">
+                            <a href="https://github.com/FedeCarballo/weather-app/tree/main/weather-web-app" target="_blank" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="" class="icon">
+                            <a href="https://benevolent-kheer-4491cd.netlify.app/" target="_blank" class="icon">
                                 <i class="fas fa-home"></i>
                             </a>
                         </div>
@@ -122,10 +122,10 @@
                     <div class="hover-items">
                         <h3>Duende Arte y Cocina</h3>
                         <div class="icons">
-                            <a href="www.google.com" target="_blank" class="icon">
+                            <a href="https://github.com/FedeCarballo/duende-arte-y-cocina" target="_blank" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="" class="icon">
+                            <a href="https://fedecarballo.github.io/duende-arte-y-cocina/" class="icon" target="_blank">
                                 <i class="fas fa-home"></i>
                             </a>
                         </div>
@@ -138,10 +138,10 @@
                     <div class="hover-items">
                         <h3>Quilmore Propiedades</h3>
                         <div class="icons">
-                            <a href="www.google.com" target="_blank" class="icon">
+                            <a href="https://github.com/FedeCarballo/QuilmorePropiedades" target="_blank" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="" class="icon">
+                            <a href="https://quilmorepropiedades.com.ar" target="_blank" class="icon">
                                 <i class="fas fa-home"></i>
                             </a>
                         </div>
@@ -154,10 +154,10 @@
                     <div class="hover-items">
                         <h3>RE! Agite inclusivo</h3>
                         <div class="icons">
-                            <a href="www.google.com" target="_blank" class="icon">
+                            <a href="https://github.com/FedeCarballo/REagite" target="_blank" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="" class="icon">
+                            <a href="https://re-agiteinclusivo.vercel.app" target="_blank" class="icon">
                                 <i class="fas fa-home"></i>
                             </a>
                         </div>
@@ -170,10 +170,10 @@
                     <div class="hover-items">
                         <h3>Wircom S.A</h3>
                         <div class="icons">
-                            <a href="www.google.com" target="_blank" class="icon">
+                            <a href="https://github.com/FedeCarballo/Wircom-SA" target="_blank" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="" class="icon">
+                            <a href="https://www.wircom.com.ar/" target="_blank" class="icon">
                                 <i class="fas fa-home"></i>
                             </a>
                         </div>
@@ -186,10 +186,10 @@
                     <div class="hover-items">
                         <h3>Rick & Morty API</h3>
                         <div class="icons">
-                            <a href="www.google.com" target="_blank" class="icon">
+                            <a href="https://github.com/FedeCarballo/rick-y-morty-gh-pages" target="_blank" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="" class="icon">
+                            <a href="https://fedecarballo.github.io/rick-y-morty-gh-pages/" target="_blank" class="icon">
                                 <i class="fas fa-home"></i>
                             </a>
                         </div>
@@ -201,7 +201,7 @@
         <section class="section sec4 contact" id="contact">
             <div class="contact-container">
                 <div class="main-title">
-                    <h2>Medios de<span>contacto</span><span class="bg-text">Contactame</span></h2>
+                    <h2>Medios de<span>contacto</span><span class="bg-text">Contacto</span></h2>
                 </div>
                 <div class="contact-content-con">
                     <div class="left-contact">
@@ -251,30 +251,23 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+                        <form method="POST" action="/php/formulario.php" class="contact-form">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="Nombre">
-                                <input type="email" required placeholder="Email">
+                                <input for="nombre" name="nombre" id="nombre" type="text" required placeholder="Nombre">
+                                <input for="email" name="email" id="email" type="email" required placeholder="Email">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="Asunto">
+                                <input for="asunto" name="asunto" id="asunto" type="text" required placeholder="Asunto">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Deje su mensaje aqui.."></textarea>
+                                <textarea for="msg" name="msg" id="msg" name="" id="" cols="15" rows="8" placeholder="Deje su mensaje aqui.."></textarea>
                             </div>
-                            <div class="submit-btn">
-                                <a href="" class="main-btn">
-                                    <span class="btn-text">Descarga mi CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
-                            </div>
+                            <input class="submit-btn-php" type="submit" class="btn btn-success boton" name="enviar" value="Enviar">
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-
-
     </main>
 
     <div class="controlls">
@@ -292,6 +285,9 @@
         </div>
     </div>
 
+    <div class="theme-btn">
+        <i class="fa fa-adjust"
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
