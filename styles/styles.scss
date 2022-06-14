@@ -6,8 +6,8 @@
     list-style: none;
 }
 :root{
-    --color-primary: #192140;
-    --color-secondary:#2a499d;
+    --color-primary: #0e1222;
+    --color-secondary:#243a78;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -24,7 +24,7 @@
 
 .light-mode{
     --color-primary: #FFFFFF;
-    --color-secondary:#bb1d1d;
+    --color-secondary:#b60303;
     --color-white: #000000;;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -35,7 +35,9 @@
     --color-grey5: #f8f8f8;
     --color-grey6: #12181b;
 }
-
+section{
+    margin: 8vh 0;
+}
 body{
     background-color: var(--color-primary);
     font-family: 'Poppins', sans-serif;
@@ -57,44 +59,6 @@ header{
     overflow: hidden;
 }
 
-section{
-    min-height: 100vh;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 3rem 18rem;
-}
-
-.section{
-    transform: translateY(-100%) scale(0);
-    transition: all .4s ease-in-out;
-    background-color: var(--color-primary);   
-}
-
-.sec1{
-    display: none;
-    transform: translateY(0) scale(1);
-    
-}
-
-.sec2{
-    display: none;
-    transform: translateY(0) scale(1);
-    
-}
-
-.sec3{
-    display: none;
-    transform: translateY(0) scale(1);
-   
-}
-
-.sec4{
-    display: none;
-    transform: translateY(0) scale(1);
-    
-}
 
 .active{
     display: block;
@@ -293,7 +257,10 @@ section{
 }
 
 .left-about{
-    padding-right: 5rem;
+    h4{
+        text-align: center;
+        margin: 5vh 0;
+    }
     width: 70%;
     margin: 5rem auto;
     p{
@@ -346,6 +313,22 @@ section{
 
     }
 }
+.Certificaciones{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .image1{
+        width: 44%;
+        margin: 3vh;
+        img{
+            height: 350px;
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+}
 
 .main-title{
     text-align: center;
@@ -388,10 +371,12 @@ section{
     .portfolio-item{
         position: relative;
         border-radius: 20px;
+        margin: auto;
+        width: 90%;
         img{
             border-radius: 20px;
             width: 100%;
-            height: 350px;
+            height: 450px;
             object-fit: cover;
 
         }
@@ -457,6 +442,8 @@ section{
 //Contact 
 
 .contact-content-con{
+    width: 95%;
+    margin: auto;
     display: flex;
     padding-top: 3.5rem;
     .left-contact{
