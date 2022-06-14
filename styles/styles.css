@@ -4,11 +4,12 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 :root {
-  --color-primary: #0e1222;
-  --color-secondary:#243a78;
+  --color-primary: #080a12;
+  --color-secondary:#001f75;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -28,11 +29,11 @@
   --color-white: #000000;
   --color-black: #000;
   --color-grey0: #f8f8f8;
-  --color-grey1: #9ca1a8;
+  --color-grey1: #575b60;
   --color-grey2: #b2becd;
   --color-grey3: #6c7983;
-  --color-grey4: #0e0e0e;
-  --color-grey5: #f8f8f8;
+  --color-grey4: #2b2b2b;
+  --color-grey5: #eeeded;
   --color-grey6: #12181b;
 }
 
@@ -62,34 +63,6 @@ header {
   overflow: hidden;
 }
 
-.active {
-  display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-
-@-webkit-keyframes scaleAnim {
-  0% {
-    -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    -webkit-transform: translateY(0) scaleY(1);
-            transform: translateY(0) scaleY(1);
-  }
-}
-
-@keyframes scaleAnim {
-  0% {
-    -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    -webkit-transform: translateY(0) scaleY(1);
-            transform: translateY(0) scaleY(1);
-  }
-}
-
 .controlls {
   position: fixed;
   z-index: 10;
@@ -112,16 +85,10 @@ header {
           transform: translateY(-50%);
 }
 
-.controlls .active-btn {
-  background-color: var(--color-secondary) !important;
-  -webkit-transition: all .4 ease-in-out;
-  transition: all .4 ease-in-out;
-}
-
 .controlls .controll {
   padding: 1rem;
   cursor: pointer;
-  background-color: var(--color-grey4);
+  background-color: var(--color-grey5);
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -146,13 +113,13 @@ header {
 }
 
 .submit-btn-php {
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 15px;
   color: var(--color-white);
   background-color: var(--color-primary);
   border: solid 1px var(--color-secondary);
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 200;
   -webkit-transition: all .6s ease-in-out;
   transition: all .6s ease-in-out;
 }
@@ -860,6 +827,9 @@ header {
     height: 340px;
     -o-object-fit: contain;
        object-fit: contain;
+  }
+  .left-contact {
+    text-align: center;
   }
   .contact-content-con {
     padding-bottom: 6rem;
