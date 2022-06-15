@@ -37,10 +37,7 @@
         }
         .left-about{
             width: 100%;
-            padding-right: 0;
-            p{
-                padding-left: 0;
-            }
+
         }
     }
     .about-stats{
@@ -71,13 +68,27 @@
         }
     }
     .section{
-        padding: 2rem 2.5rem !important;
+        text-align: center;
+        padding: 2vh;
+    }
+    .submit-btn-php{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
 
-
+    .btn-con{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
     .portfolios{
         grid-template-columns: 1fr;
-        padding-bottom: 6rem;
+        padding-bottom: 4rem;
         .portfolio-item{
             width: 100%;
             .image{
@@ -102,6 +113,11 @@
     }
     .contact-content-con .right-contact .i-c-2{
         flex-direction:column;
+    }
+    .contact-icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     .contact-info{
         .contact-item{

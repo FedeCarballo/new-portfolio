@@ -9,7 +9,7 @@
 
 :root {
   --color-primary: #080a12;
-  --color-secondary:#001f75;
+  --color-secondary:#f35f1a;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -17,7 +17,7 @@
   --color-grey2: #b2becd;
   --color-grey3: #6c7983;
   --color-grey4: #0e0e0e;
-  --color-grey5: #2a2e35;
+  --color-grey5: #171d36;
   --color-grey6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
@@ -28,12 +28,12 @@
   --color-secondary:#b60303;
   --color-white: #000000;
   --color-black: #000;
-  --color-grey0: #f8f8f8;
+  --color-grey0: #020202;
   --color-grey1: #575b60;
   --color-grey2: #b2becd;
   --color-grey3: #6c7983;
   --color-grey4: #2b2b2b;
-  --color-grey5: #eeeded;
+  --color-grey5: #e1dcdc;
   --color-grey6: #12181b;
 }
 
@@ -88,7 +88,7 @@ header {
 .controlls .controll {
   padding: 1rem;
   cursor: pointer;
-  background-color: var(--color-grey5);
+  background-color: var(--color-grey0);
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -166,6 +166,23 @@ header {
   font-size: 1.4rem;
   color: var(--color-grey2);
   pointer-events: none;
+}
+
+.btn-con2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
 }
 
 /* HEADER CONTENT */
@@ -333,7 +350,8 @@ header {
 }
 
 .about-stats {
-  width: 100%;
+  width: 98%;
+  margin: auto;
   color: var(--color-secondary);
   font-size: 4rem;
   text-align: center;
@@ -389,8 +407,8 @@ header {
   filter: none;
   -webkit-transform: scaleX(1.1) scaleY(1.1);
           transform: scaleX(1.1) scaleY(1.1);
-  -webkit-box-shadow: var(--color-secondary) 4px 5px 15px;
-          box-shadow: var(--color-secondary) 4px 5px 15px;
+  -webkit-box-shadow: var(--color-grey6) 4px 5px 15px;
+          box-shadow: var(--color-grey6) 4px 5px 15px;
 }
 
 .Certificaciones {
@@ -768,10 +786,6 @@ header {
   }
   .about-container .left-about {
     width: 100%;
-    padding-right: 0;
-  }
-  .about-container .left-about p {
-    padding-left: 0;
   }
   .about-stats {
     font-size: 2.5rem !important;
@@ -810,12 +824,45 @@ header {
     width: 100%;
   }
   .section {
-    padding: 2rem 2.5rem !important;
+    text-align: center;
+    padding: 2vh;
+  }
+  .submit-btn-php {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .btn-con {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
   }
   .portfolios {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
   }
   .portfolios .portfolio-item {
     width: 100%;
@@ -847,6 +894,18 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .contact-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .contact-info .contact-item {
     display: -webkit-box;
