@@ -491,7 +491,7 @@ header {
 .portfolios .portfolio-item img {
   border-radius: 20px;
   width: 100%;
-  height: 450px;
+  height: 470px;
   -o-object-fit: cover;
      object-fit: cover;
 }
